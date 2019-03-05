@@ -1,0 +1,39 @@
+TABLE {
+    font-family: Arial;
+    text-align: left;
+    moz-border-radius: 18px; /* Firefox */
+    -webkit-border-radius: 18px; /* Safari, Google Chrome */
+    -khtml-border-radius: 18px; /* KHTML */
+    -o-border-radius: 18px; /* Opera */
+    -ms-border-radius: 18px; /* IE8 */
+    border-radius: 18px; /* CSS3 */
+    overflow:hidden;
+    margin:0.7em auto;
+    background: #ffffff; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+
+}
+TD { /* Нижние*/
+  /*  padding-left:15px; */
+    font-weight: 300;
+    background: #f2e288; /* Цвет фона ячеек */
+    width: 55px;
+    height: 35px;
+}
+TH {
+    text-shadow: black 1px 1px 1px;
+    color: white;
+    font-weight: 300;
+    padding-left:12px;
+    padding-right: 12px;
+    background: #bbe9d8; /* Цвет фона ячеек */
+    width: 55px;
+    height: 35px;
+}
+.st {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.st1 {
+    text-align: center;
+}
